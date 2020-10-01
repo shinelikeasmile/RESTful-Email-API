@@ -1,0 +1,28 @@
+{
+  "name": "RESTful-Email-API",
+  "version": "1.0.0",
+  "description": "RESTful-Email-API sends emails using Gmail REST API and OAuth 2.0 without using client libraries.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "start:dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shinelikeasmile/RESTful-Email-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shinelikeasmile/RESTful-Email-API/issues"
+  },
+  "homepage": "https://github.com/shinelikeasmile/RESTful-Email-API#readme"
+}
